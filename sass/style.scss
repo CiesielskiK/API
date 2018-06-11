@@ -1,0 +1,113 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 900px;
+  margin: 0 auto;
+  background-image: url("../images/dotmap60.png");
+  background-repeat: no-repeat;
+  background-position-y: 180px;
+}
+
+nav {
+  height: 60px;
+  background-image: url("../images/country-flags.png");
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #a7a7a7;
+}
+
+#title {
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 80px;
+  width: 800px;
+}
+
+.container {
+  margin: 40px auto;
+  text-align: center;
+  width: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+#country-name {
+  height: 39px;
+  width: 200px;
+  margin-top: 29px;
+  border-radius: 10px 0px 0px 10px;
+  padding: 0;
+  border: 1px solid black;
+  padding-left: 28px;
+  font-size: 14px;
+}
+
+#search {
+  color: #fff;
+  background-color: #424958;
+  line-height: 34px;
+  width: 230px;
+  margin-left: -10px;
+  border: 1px solid black;
+  border-left: 3px solid black;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 16px;
+}
+
+#search .fa {
+  font-size: 18px;
+}
+
+#search:hover {
+  background-color: black;
+}
+
+#question {
+  border: 1px solid;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 50%;
+  width: 24px;
+  margin-left: 10px;
+  background-color: lightgrey;
+  cursor: pointer;
+  display:inline-block;
+}
+
+#countries {
+  background-color: #d8d8d8ab;
+  margin: 30px auto;
+  border-radius: 5px;
+  top: 50px;
+  position: relative;
+  min-height: 400px;
+  display: none;
+  width: 80%;
+  padding-bottom: 20px;
+  box-shadow: 0px 5px 15px;
+}
+
+.table-bordered>tbody>tr>td {
+  border: 1px solid grey;
+}
+
+#flag {
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.table {
+  width: 60%;
+  margin: 30px auto;
+}
+
+#map {
+  position: relative;
+  overflow: hidden;
+  width: 560px;
+  height: 380px;
+  margin: 20px auto;
+}

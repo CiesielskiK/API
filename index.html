@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Country search engine</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav></nav>
+  <h1 id="title">Country search engine</i>
+  </h1>
+  <div class="container">
+    <div class="search-box">
+      <input id="country-name" type="text" />
+      <button id="search">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        Search a country
+      </button>
+      <i id="question" class="fa fa-question" data-toggle"tooltip" data-placement="right" title="Please enter country full name" rel="tooltip"></i>
+    </div>
+    <div id="countries">
+      <div id="photo">
+        <img src="" id="flag" alt="">
+      </div>
+      <h2 id="name-h2"></h2>
+      <div>
+        <table id="infoTable" class="table table-bordered text-center">
+          <tbody>
+            <tr>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="map"></div>
+    </div>
+  </div>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzHadHXUs2T388ovEbSqICmY3V9eZaMQM&callback">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
